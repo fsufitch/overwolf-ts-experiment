@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "typings install",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "awesome-typescript-loader": "^1.1.1",
+    "css-loader": "^0.23.1",
     "html-loader": "^0.4.3",
     "node-sass": "^3.8.0",
     "sass-loader": "^4.0.0",
@@ -20,10 +23,5 @@
   },
   "dependencies": {
     "jquery": "^3.1.0"
-  },
-  "scripts": {
-    "postinstall": "typings install",
-    "build": "webpack",
-    "build:watch": "webpack --watch"
   }
 }

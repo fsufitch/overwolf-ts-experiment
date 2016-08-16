@@ -1,2 +1,5 @@
-html {}
-body { background-color: #ffe }
+$my-favorite-color: #ffa;
+
+body {
+  background: $my-favorite-color;
+}
