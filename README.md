@@ -1,6 +1,6 @@
 # Overwolf + Typescript + Webpack Experiment
 
-This is just a small experiment to see how easy it is to build Overwolf apps
+This is just a small experiment to see how easy it is to build [Overwolf](http://overwolf.com) apps (game overlays)
 using Typescript/Webpack. Answer: really easy. This small sample project just
 creates a window that tells you what game you are currently playing when you
 push a button. However, it does some nifty stuff:
