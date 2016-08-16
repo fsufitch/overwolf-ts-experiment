@@ -20,5 +20,10 @@
   },
   "dependencies": {
     "jquery": "^3.1.0"
+  },
+  "scripts": {
+    "postinstall": "typings install",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   }
 }
