@@ -1,0 +1,10 @@
+{
+  "name": "overwolf-ts-experiment",
+  "dependencies": {
+    "webpack": "registry:npm/webpack#1.12.9+20160418172948"
+  },
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
+    "require": "registry:dt/require#2.1.20+20160316155526"
+  }
+}

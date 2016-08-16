@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "../../built/local/tsc.js",
+        "sourceMap": true
+    },
+    "files": [
+      "ts/main.ts"
+    ],
+    "filesGlob": [
+      "ts/**/*.ts"
+    ]
+}
